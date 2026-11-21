@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Learn practical skills online with friendly expert teachers and flexible courses.">
+  <title>Brightpath — Learn something that moves you forward</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="#home" aria-label="Brightpath home"><span class="brand-mark" aria-hidden="true">✳</span> brightpath<span class="brand-dot">.</span></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="nav-links" aria-label="Open navigation menu"><span></span><span></span></button>
+      <div class="nav-links" id="nav-links">
+        <a href="#courses">Courses</a><a href="#why-us">Why Brightpath</a><a href="#stories">Learner stories</a>
+        <a class="nav-contact" href="#contact">Get in touch <span aria-hidden="true">↗</span></a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero container" id="home" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot"></span> Learn at your pace · Grow your way</p>
+        <h1 id="hero-title">A new skill can open <span>a new door.</span></h1>
+        <p class="hero-text">Build real-world skills with friendly teachers, practical lessons, and a learning plan that fits your life.</p>
+        <div class="hero-actions"><a class="button button-dark" href="#courses">Find your course <span aria-hidden="true">↘</span></a><a class="text-link" href="#why-us">How it works <span aria-hidden="true">→</span></a></div>
+        <p class="hero-note">Join 12,000+ curious learners taking their next step.</p>
+      </div>
+      <div class="hero-art" role="img" aria-label="Illustration of a student learning at a laptop beneath a sunny sky">
+        <div class="sun"></div><div class="hill hill-back"></div><div class="hill hill-front"></div>
+        <span class="art-label">Your next<br>chapter <b>✳</b></span><span class="art-caption">Small steps add up.</span>
+        <span class="hero-badge"><strong>Learn</strong><br>something new</span>
+      </div>
+      <a class="scroll-cue" href="#courses"><span>Explore courses</span><span aria-hidden="true">↓</span></a>
+    </section>
+
+    <section class="work section-pad" id="courses" aria-labelledby="courses-title">
+      <div class="container">
+        <div class="section-heading"><div><p class="eyebrow">Find your next favorite subject</p><h2 id="courses-title">Learn what <span>moves you.</span></h2></div><a class="text-link desktop-link" href="#contact">Need help choosing? <span aria-hidden="true">↗</span></a></div>
+        <div class="course-filters" role="group" aria-label="Filter courses by subject"><button class="filter-button active" type="button" data-filter="all" aria-pressed="true">All courses</button><button class="filter-button" type="button" data-filter="design" aria-pressed="false">Design</button><button class="filter-button" type="button" data-filter="business" aria-pressed="false">Business</button><button class="filter-button" type="button" data-filter="technology" aria-pressed="false">Technology</button></div>
+        <p class="course-count" id="course-count" aria-live="polite">Showing 3 courses</p>
+        <div class="project-grid course-grid" id="course-grid">
+          <article class="project-card course-card" data-category="design"><button class="project-visual project-lime course-visual" type="button" data-course="Design Foundations" data-description="Learn the principles of layout, color, and typography, then put them into practice in a project of your own." aria-label="Preview Design Foundations course"><img src="https://images.unsplash.com/photo-1455390582262-044cdead277a?auto=format&fit=crop&w=900&q=80" alt="Designer sketching ideas in an open notebook"><span class="course-tag">DESIGN · 6 WEEKS</span><span class="course-title">Design<br>Foundations</span><span class="course-icon" aria-hidden="true">✳</span></button><div class="project-meta"><div><h3>Design Foundations</h3><p>With Maya Chen · Beginner friendly</p></div><span class="project-arrow" aria-hidden="true">↗</span></div></article>
+          <article class="project-card course-card" data-category="business"><button class="project-visual project-blue course-visual" type="button" data-course="Start Your Small Business" data-description="Turn your idea into a clear business plan. Explore customers, pricing, and the first steps to launch with confidence." aria-label="Preview Start Your Small Business course"><img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=900&q=80" alt="Small business team planning around a desk"><span class="course-tag">BUSINESS · 4 WEEKS</span><span class="course-title">Start your<br>small business</span><span class="course-icon" aria-hidden="true">↗</span></button><div class="project-meta"><div><h3>Start Your Small Business</h3><p>With Jordan Lee · Beginner friendly</p></div><span class="project-arrow" aria-hidden="true">↗</span></div></article>
+          <article class="project-card course-card" data-category="technology"><button class="project-visual project-peach course-visual" type="button" data-course="Code Your First Website" data-description="Get comfortable with HTML, CSS, and JavaScript as you build a simple website step by step." aria-label="Preview Code Your First Website course"><img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=900&q=80" alt="Laptop displaying code on a developer's desk"><span class="course-tag">TECHNOLOGY · 5 WEEKS</span><span class="course-title">Code your<br>first website</span><span class="course-icon" aria-hidden="true">&lt;/&gt;</span></button><div class="project-meta"><div><h3>Code Your First Website</h3><p>With Sam Rivera · No experience needed</p></div><span class="project-arrow" aria-hidden="true">↗</span></div></article>
+        </div>
+        <p class="course-empty" id="course-empty" hidden>No courses in this subject yet. Try another category.</p>
+      </div>
+    </section>
+
+    <section class="services section-pad" id="why-us" aria-labelledby="why-title">
+      <div class="container services-layout"><div class="services-intro"><p class="eyebrow">Learning that works for real life</p><h2 id="why-title">Your goals. <span>Your pace.</span></h2><p>Learning something new should feel possible. We make it easier to start and satisfying to keep going.</p><a class="button button-light" href="#courses">Explore all courses <span aria-hidden="true">↗</span></a><button class="guide-toggle" type="button" aria-expanded="false" aria-controls="learning-guide">See how a course works <span aria-hidden="true">＋</span></button><div class="learning-guide" id="learning-guide" hidden><strong>A simple path to progress</strong><p>Choose a course, watch short lessons, practice with a real project, and ask your instructor for help whenever you need it.</p></div></div>
+        <div class="service-list"><article class="service-item"><span class="service-number">01</span><div><h3>Learn by doing</h3><p>Short lessons and hands-on projects help you use each new skill.</p></div><span aria-hidden="true">✳</span></article><article class="service-item"><span class="service-number">02</span><div><h3>Get support from teachers</h3><p>Friendly instructors are here to answer questions and help you grow.</p></div><span aria-hidden="true">↗</span></article><article class="service-item"><span class="service-number">03</span><div><h3>Make progress your way</h3><p>Study when it works for you and revisit lessons whenever you need.</p></div><span aria-hidden="true">✳</span></article></div>
+      </div>
+    </section>
+
+    <section class="about section-pad" id="stories" aria-labelledby="stories-title"><div class="container about-layout"><div class="about-stamp" role="img" aria-label="Illustration celebrating learner progress"><span>you can<br>do this</span><b aria-hidden="true">✳</b></div><div class="about-copy"><p class="eyebrow">A note from our learners</p><h2 id="stories-title">“I finally built the <span>confidence to begin.”</span></h2><p>“The lessons were clear, the projects felt useful, and I could fit everything around my job. I went from putting off my idea to publishing my first website.”</p><a class="text-link" href="#courses">Start your own learning journey <span aria-hidden="true">→</span></a><p class="learner-name"><strong>Alex Morgan</strong> · Brightpath learner</p></div></div></section>
+
+    <section class="quote-band" aria-label="Our learning promise"><div class="container quote-content"><span class="quote-star" aria-hidden="true">✳</span><blockquote>Every expert was once a beginner. Your next step starts <em>right here.</em></blockquote><p>Keep growing with Brightpath</p></div></section>
+  </main>
+
+  <dialog class="course-modal" id="course-modal" aria-labelledby="modal-title"><button class="modal-close" type="button" aria-label="Close course preview">×</button><p class="eyebrow">COURSE PREVIEW</p><h2 id="modal-title">Course name</h2><p id="modal-description"></p><a class="button button-dark modal-cta" href="#contact">Ask us about this course <span aria-hidden="true">↗</span></a></dialog>
+
+  <footer class="footer section-pad" id="contact"><div class="container"><div class="footer-top"><div class="footer-invite"><p class="eyebrow">Ready to take the next step?</p><h2>Let’s learn <span>something new.</span></h2><a class="footer-email" href="mailto:hello@brightpath.learn">hello@brightpath.learn <span aria-hidden="true">↗</span></a></div><div class="contact-card"><h3>We’re happy to help.</h3><p>Ask us about choosing a course.</p><form id="contact-form" novalidate><label for="name">Your name</label><input id="name" name="name" type="text" autocomplete="name" placeholder="Alex Morgan" required><label for="email">Email address</label><input id="email" name="email" type="email" autocomplete="email" placeholder="alex@example.com" required><label for="message">What would you like to learn?</label><textarea id="message" name="message" rows="3" placeholder="Tell us what you’re interested in..." required></textarea><button class="button button-dark form-submit" type="submit">Send your question <span aria-hidden="true">↗</span></button><p class="form-feedback" id="form-feedback" role="status" aria-live="polite"></p></form></div></div><div class="footer-bottom"><a class="brand" href="#home"><span class="brand-mark" aria-hidden="true">✳</span> brightpath<span class="brand-dot">.</span></a><p>© <span id="year">2026</span> Brightpath Learning. Keep growing.</p><button class="theme-toggle" type="button" aria-pressed="false"><span aria-hidden="true">◐</span> Switch to dark mode</button></div></div></footer>
+</body>
+</html>
